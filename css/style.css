@@ -1,0 +1,75 @@
+nav, .brand-logo {
+  color: #fff;
+}
+
+li:hover{
+  background: #ffc107;
+}
+#nav-mobile{
+  background: rgba(91, 106, 193, 0.6);
+}
+#pre{
+  background-image: url("../images/fondo.jpg");
+  background-size: cover;
+}
+#post{
+  background-image: url("../images/real.jpg");
+  background-size: cover;
+}
+.space{
+  width: 100px;
+  padding: 0;
+  margin: 0;
+}
+#div{
+  width: 100px;
+  padding: 0;
+  margin: 0;
+}
+.transparente{
+  background: rgba(37, 37, 37, 0.6);
+}
+p {
+  line-height: 2rem;
+  text-align: justify;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
